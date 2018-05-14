@@ -1,0 +1,23 @@
+{
+    "name": "wangxiao/uploadfile",
+    "description": "一个通用的文件上传包",
+    "type": "library",
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wangxiao",
+            "email": "569697210@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+	"psr-4": {
+	    "Wangxiao\\": "src/"	
+	}    
+    }
+}
